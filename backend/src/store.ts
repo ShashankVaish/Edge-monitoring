@@ -23,7 +23,7 @@ class Sessionstore{
         return this.sessions.get(sessionId);
     }
     getAll():Session[]{
-        return [...this.sessions.values()]
+        return [...this.sessions.values()];
     }
 
 }
